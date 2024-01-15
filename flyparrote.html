@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("evening.jpg");
+            background-size: cover;
+        }
+    .main{
+        height:40px ;
+        width:72.7px;
+        background-image: url("parrote2.png");
+        animation: parrote 1s steps(10) infinite;
+    }
+    @keyframes parrote {
+        from{
+            background-position: 0px;
+        }
+        to{
+            background-position: 727px;
+        }
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+      .gun1{
+        background-image: url("gun.png");
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        background-color: transparent;
+        border: none;
+    }
+    .fir{
+        height: 30px;
+        width: 1px;
+        border: 1px solid white;
+        position:  absolute;
+        left: 100px;
+        display: none;
+    }
+    
+    </style>
+    <script src="jquery/jquery.js"></script>
+    <script>
+    </script>
+</head>
+<body>
+    <marquee behavior="scroll" direction="right" scrollamount="17">
+        <div class="main"></div>
+    </marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="16">
+        <div class="main"></div>
+    </marquee>
+<marquee behavior="scroll" direction="right" scrollamount="15">
+    <div class="main"></div>
+</marquee>
+<marquee behavior="scroll" direction="right" scrollamount="14">
+    <div class="main"></div>
+</marquee>
+<marquee behavior="scroll" direction="right" scrollamount="13">
+    <div class="main"></div>
+</marquee>
+<marquee behavior="scroll" direction="right" scrollamount="12">
+    <div class="main"></div>
+</marquee>
+<marquee behavior="scroll" direction="right" scrollamount="11">
+    <div class="main"></div>
+</marquee>
+</body>
+</html>
